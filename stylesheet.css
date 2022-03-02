@@ -5,6 +5,9 @@ body {
     flex-flow: column wrap;
     background-color: #EBFFF0;
     margin: 0;
+    min-width: 30em;
+    width: auto;
+    align-items: center;
 }
 
 a {
@@ -27,11 +30,18 @@ ul {
     background-color: #C3EECE;
     padding: 0 0 .5em;
     height: 4em;
+    width: 80%;
+    border: groove .5em #A16467;
+}
+
+.joke-image {
+    max-width: 60%;
 }
 
 .container {
     display: flex;
     flex-flow: row wrap;
+    width: 80%;
 }
 
 .link    {
@@ -41,21 +51,40 @@ ul {
 
 .header-logo {
     padding: 0 1em;
-    width: 10%;
+    width: 22em;
     height: auto;
 }
 
-.container.intro{
-    background-color: #C3EECE;    
+.container.intro {
+    border: groove .5em #A16467;
+    background-color: #C3EECE;
+    padding: 4 0em;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container.images {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    max-height: 20%;
+}
+
+.intro-left {
+    flex: 1; 
+    order: 1;
+}
+
+.intro-right {
+    flex: 1;
+    order: 2;
 }
 
 .founder-placard-holder {
-    display: flex;  
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .founder-placard {
-    display: flex;
-    height: 20em;
-    width: 10em;
-    padding: 0 8em;
+   
 }
