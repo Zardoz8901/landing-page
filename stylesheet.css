@@ -7,13 +7,16 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
-    align-content: center;
-    
+    align-content: center;   
 }
 
 .header {
@@ -22,7 +25,13 @@ ul {
     justify-content: space-between;
     align-items: flex-end;
     background-color: #C3EECE;
-    height: 2em;
+    padding: 0 0 .5em;
+    height: 4em;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .link    {
@@ -33,4 +42,20 @@ ul {
 .header-logo {
     padding: 0 1em;
     width: 10%;
+    height: auto;
+}
+
+.container.intro{
+    background-color: #C3EECE;    
+}
+
+.founder-placard-holder {
+    display: flex;  
+}
+
+.founder-placard {
+    display: flex;
+    height: 20em;
+    width: 10em;
+    padding: 0 8em;
 }
