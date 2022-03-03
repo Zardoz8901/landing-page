@@ -5,7 +5,7 @@ body {
     flex-flow: column wrap;
     background-color: #EBFFF0;
     margin: 0;
-    min-width: 30em;
+    min-width: 50em;
     width: auto;
     align-items: center;
 }
@@ -19,7 +19,7 @@ ul {
     padding: 0;
     margin: 0;
     display: flex;
-    align-content: center;   
+    align-content: center;  
 }
 
 .header {
@@ -27,15 +27,10 @@ ul {
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: flex-end;
-    background-color: #C3EECE;
-    padding: 0 0 .5em;
+    background-color: #C3EECE90;
+    padding: 0 0 1em;
     height: 4em;
     width: 80%;
-    border: groove .5em #A16467;
-}
-
-.joke-image {
-    max-width: 60%;
 }
 
 .container {
@@ -47,6 +42,7 @@ ul {
 .link    {
     display: flex;
     padding: 0 1em;
+    color: #133B33;
 }
 
 .header-logo {
@@ -55,36 +51,70 @@ ul {
     height: auto;
 }
 
-.container.intro {
-    border: groove .5em #A16467;
+.intro {
     background-color: #C3EECE;
-    padding: 4 0em;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.container.images {
-    display: flex;
-    flex-direction: row;
-    flex: 1;
-    max-height: 20%;
-}
-
-.intro-left {
-    flex: 1; 
-    order: 1;
-}
-
-.intro-right {
-    flex: 1;
-    order: 2;
-}
-
-.founder-placard-holder {
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 5em 0;
+    flex: 1;
 }
 
-.founder-placard {
-   
+.intro-placard {
+    display: flex;
+    flex: .9;
+    width:80%;
+    background-color: #A1646740;
+    border-radius: .2em;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    gap: 2em;
+    color: #133B33;
+}
+
+.intro-text {
+    order: 1;
+    flex: 1;
+    align-self: flex-start;
+    justify-content: flex-start;
+    max-width:  15%;
+    min-width: 25%;
+}
+
+.intro-header-left {
+    margin-top: 0; 
+    font-size: xx-large;
+    color: white;
+}
+
+.intro-body {
+    padding: 0 0 0 1.5em;
+}
+
+.intro-link {
+    color: #AB5E2E;
+    size: large;
+    
+}
+
+.intro-image-placard {
+    order: 2;    
+    flex: 1;
+}
+
+.intro-image {
+    flex: 1;
+    height: auto;
+    width: 70%;
+}
+
+.button {
+    padding: 1.5em;
+}
+
+.break{
+    padding: .6em;
 }
