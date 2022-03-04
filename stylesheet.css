@@ -98,6 +98,7 @@ ul {
     color: #1F2937;
     background-color: white;
     align-items: center;
+    height: 400px;
 }
 
 .information-headline {
@@ -135,4 +136,28 @@ ul {
     width: 100px;
     font-size: x-small;
     text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    background-color: rgb(233, 233, 233);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.quote-text {
+    display: flex;
+    flex-direction: column;
+    color: #1F2937;
+    margin: 0;
+    width: 500px;
+    font-size: x-large;
+}
+
+.quote-author {
+    font-size: x-large;
+    align-self: flex-end;
 }
