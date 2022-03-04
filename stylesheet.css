@@ -17,8 +17,8 @@ ul {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: flex-end;
-    background-color: #1F2397;
-    color: white;
+    background-color: #1F2937;
+    color: #EBCD50;
     width: 80%;
     height: 2.8em;
     min-width: fit-content;
@@ -38,4 +38,13 @@ ul {
     gap: 30px;
     margin: 0 100px 6px 25px;
     padding: 6px 0 0 0;
+}
+
+.intro {
+    display: flex;
+   flex-flow: row nowrap;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #1F2937;
+   width: 80%;
 }
