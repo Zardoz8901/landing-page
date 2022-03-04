@@ -55,6 +55,7 @@ ul {
    align-items: center;
    background-color: #1F2937;
    padding: 50px;
+   height: 300px;
 
 }
 
@@ -68,8 +69,13 @@ ul {
 
 .intro-card-two    {
     margin: 25px 50px 25px 25px;
+    justify-content: center;
+    align-items: flex-start;
 }
 
+.test-image {
+    border-radius: 10px;
+}
 
 .button {
     font-family: Roboto, 'Helvetica Neue', sans-serif;
@@ -84,4 +90,49 @@ ul {
   padding: 0.25rem 0.5rem;
   margin: 0;
   cursor: pointer;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    color: #1F2937;
+    background-color: white;
+    align-items: center;
+}
+
+.information-headline {
+    margin: 25px 0 0 0;
+    padding: 25px;
+    font-size: x-large;
+}
+
+.information-boxes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    flex: 1;
+    column-gap: 30px;
+    padding: 0 25px 25px 25px;
+    margin: 25px 0;
+}
+
+.box-container {
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 4px solid #1E88E5;
+    border-radius: 10px;
+}
+
+.box-descriptor {
+    width: 100px;
+    font-size: x-small;
+    text-align: center;
 }
