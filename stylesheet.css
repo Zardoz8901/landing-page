@@ -55,7 +55,7 @@ ul {
    align-items: center;
    background-color: #1F2937;
    padding: 50px;
-   height: 300px;
+   width: 100;
 
 }
 
@@ -64,7 +64,6 @@ ul {
         justify-content: space-between;
         color: #EBCD50;
         margin: 25px 25px 25px 50px;
-        width: 300px;
 }
 
 .intro-card-two    {
@@ -98,7 +97,7 @@ ul {
     color: #1F2937;
     background-color: white;
     align-items: center;
-    height: 400px;
+    width: 100%;
 }
 
 .information-headline {
@@ -134,14 +133,15 @@ ul {
 
 .box-descriptor {
     width: 100px;
-    font-size: x-small;
+    font-size: 14px;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 .quote {
     display: flex;
     flex-direction: column;
-    height: 400px;
+    width: 100%;
     background-color: rgb(233, 233, 233);
     justify-content: center;
     align-items: center;
@@ -153,11 +153,68 @@ ul {
     flex-direction: column;
     color: #1F2937;
     margin: 0;
-    width: 500px;
+    width: 40rem;
+    margin: 1.5rem;
     font-size: x-large;
 }
 
 .quote-author {
     font-size: x-large;
     align-self: flex-end;
+}
+
+.banner {
+    background-color: white;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-card {
+    background-color: #1E88E5;
+    width: fit-content;
+    margin: 4rem;
+    display: flex;
+    padding: .5rem 5rem;
+    border-radius: .5rem;
+}
+
+.banner-header {
+    font-size: large;
+    margin: 1rem 0 0 0;
+}
+
+.banner-text {
+    margin: 0 0 .5rem 0;
+}
+
+.banner-button {
+    font-family: Roboto, 'Helvetica Neue', sans-serif;
+    border: .1rem solid white;
+  border-radius: 0.25rem;
+  background: #1E88E5;
+  color: white;
+  font-size: .8rem;
+  line-height: 1.2;
+  white-space: nowrap;
+  text-decoration: none;
+  padding: .5rem;
+  margin: 1.5rem;
+  cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #EBCD50;
+    font-size: small;
+    width: 100%;
+}
+
+.footer-text {
+    padding: 1rem;
 }
